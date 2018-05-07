@@ -23,9 +23,48 @@ time, mark, audio, video {
 
 /*body styles*/
 
+body {
+  font: Helvetica, Arial, Verdana, Sans-serif;
+  max-width:1470px;
+  margin:0 auto;
+  -webkit-font-smoothing:antialiased;
+}
+
 .header {
   height:700px;
+  width:1470px;
   background: url(../img/verse_hero.jpg) 50% 100% no-repeat;
+  margin:0 auto;
+}
+
+.quarter {
+  width:1470px;
+  margin:2.5px auto;
+}
+
+.quarter ul {
+  max-width:100%;
+}
+
+ul li {
+  display:inline-block;
 }
 
 /*nav styles*/
+
+/*footer styles*/
+
+.first-footer, .second-footer {
+  float: left;
+  padding-top: 1.5em;
+}
+
+.footer {
+  color: #6e6e6e;
+  font-size:.8334em;
+  line-height:1.2;
+}
+
+.second-footer {
+  float: right;
+}
