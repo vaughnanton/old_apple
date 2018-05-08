@@ -83,6 +83,29 @@ a {
   height: 36px;
 }
 
+.copy {
+  width:60%;
+  margin-top: 170px;
+  padding: 50px 0;
+  margin: 0 auto;
+}
+
+.copy img {
+  width:100%;
+  margin:0 auto;
+}
+
+.copy img:nth-child(1) {
+  padding-top:220px;
+}
+
+.copy img:nth-child(2) {
+  padding-top:15px;
+}
+
+.copy img:nth-child(3) {
+  padding-top:35px;
+}
 /*footer styles*/
 
 .first-footer, .second-footer {
